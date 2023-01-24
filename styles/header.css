@@ -1,0 +1,74 @@
+header {
+  background-color: #1f2937;
+  padding: 0.8rem 8rem 5rem;
+  flex: auto;
+}
+
+/* header top */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  margin-bottom: 1.8rem;
+  color: #f9faf8;
+}
+/* header links */
+.header-links > ul {
+  display: flex;
+  column-gap: 2rem;
+}
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* logo */
+.otaku-logo {
+  width: 8vw;
+  height: auto;
+}
+
+/* header content */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+.header-poster {
+  width: 40vw;
+}
+.main-heading {
+  font-size: 3.1rem;
+  font-weight: 900;
+  color: #f9faf8;
+  letter-spacing: -2px;
+}
+.heading-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0.7rem 0;
+  letter-spacing: 0.3px;
+  line-height: 1.5rem;
+}
+.sign-up {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  font-weight: 700;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+.sign-up:hover {
+  background-color: white;
+  color: #3882f6;
+}
+.sign-up:active {
+  opacity: 0.8;
+}
