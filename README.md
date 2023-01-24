@@ -2,7 +2,7 @@
 A Landing Pages on Anime.
 
 What I learned:
- - This Project really leveled up my flexbox game
+ - Practical use of flexbox
  - Sticking Footer to top
  - Nested flexbox
 
