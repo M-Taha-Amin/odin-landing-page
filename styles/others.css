@@ -1,0 +1,50 @@
+/* Quote */
+.quote-section {
+  padding: 5rem 16rem 5rem;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: auto;
+}
+.quote {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+.quote-author {
+  text-align: right;
+  font-size: 1.1rem;
+  padding-right: 1rem;
+}
+/* Call to Action */
+.cta-section {
+  padding: 5rem 8rem 5rem;
+  flex: auto;
+}
+.cta-container {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  padding: 2rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
+.cta-heading {
+  font-weight: 900;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.cta-button {
+  border: 1px white solid;
+  white-space: nowrap;
+}
+/* Footer */
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 0.85rem;
+  text-align: center;
+  flex: auto;
+}
